@@ -58,17 +58,29 @@ const numbers = [4, 10, 8, 12, 6]
 
 
 // 07 - Fizzbuzz
-for(let i = 0; i <=100; i++){
-    // console.log(i)
-    if((i % 3 === 0) && (i % 5 === 0)) {
-        log("Fizzbuzz")
-    }else if (i % 5 === 0) {
-        log("Buzz")
-    }else if (i % 3 === 0) {
-        log("Fizz")
-    }else if (i % 7 === 0) {
-        log("")
-    }else {
-        log(i)
-    }
+// for(let i = 0; i <=100; i++){
+//     console.log(i)
+//     if((i % 3 === 0) && (i % 5 === 0)) {
+//         log("Fizzbuzz")
+//     }else if (i % 5 === 0) {
+//         log("Buzz")
+//     }else if (i % 3 === 0) {
+//         log("Fizz")
+//     }else if (i % 7 === 0) {
+//         log("")
+//     }else {
+//         log(i)
+//     }
+// }
+
+// 08 - While
+let total = 0
+const limit = 10
+let i = 0
+
+while(i < limit) {
+    // log(i)
+    i++
+    total += i
 }
+log(total)
