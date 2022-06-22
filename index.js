@@ -45,23 +45,30 @@ const numbers = [4, 10, 8, 12, 6]
 // }
 
 // 06 - Reverse
-const sentence = "Hello Konexio !"
-const lastIndex = sentence.length -1 
-// log(sentence[lastIndex])
-let result = ""
-for(let i = lastIndex; i>=0; i--) {
-    // log(i)
-    // log(sentence[i])
-    result += sentence[i]
-}
-log(result)
+// const sentence = "Hello Konexio !"
+// const lastIndex = sentence.length -1 
+// // log(sentence[lastIndex])
+// let result = ""
+// for(let i = lastIndex; i>=0; i--) {
+//     // log(i)
+//     // log(sentence[i])
+//     result += sentence[i]
+// }
+// log(result)
 
 
 // 07 - Fizzbuzz
-// for(let i = 0; i <=100; i++) {
-// 	console.log(i)
-//     let
-//     if(){
-
-//     }
-// }
+for(let i = 0; i <=100; i++){
+    // console.log(i)
+    if((i % 3 === 0) && (i % 5 === 0)) {
+        log("Fizzbuzz")
+    }else if (i % 5 === 0) {
+        log("Buzz")
+    }else if (i % 3 === 0) {
+        log("Fizz")
+    }else if (i % 7 === 0) {
+        log("")
+    }else {
+        log(i)
+    }
+}
