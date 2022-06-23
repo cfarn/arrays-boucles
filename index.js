@@ -66,7 +66,7 @@ const numbers = [4, 10, 8, 12, 6]
 //         log("Buzz")
 //     }else if (i % 3 === 0) {
 //         log("Fizz")
-//     }else if (i % 7 === 0) {
+//     }else if (i % 7 !== 0) {
 //         log("")
 //     }else {
 //         log(i)
@@ -86,10 +86,10 @@ const numbers = [4, 10, 8, 12, 6]
 // log(total)
 
 // 09 - Sans boucle
-const names = ["prenom1", "prenom2", "prenom3", "prenom4", "prenom5", "prenom6", "prenom7", "prenom8", "prenom9", "prenom10", "prenom11", "prenom12", "prenom13", "prenom14", "prenom15", "prenom16", "prenom17", "prenom18", "prenom19", "prenom20"]
+// const names = ["prenom1", "prenom2", "prenom3", "prenom4", "prenom5", "prenom6", "prenom7", "prenom8", "prenom9", "prenom10", "prenom11", "prenom12", "prenom13", "prenom14", "prenom15", "prenom16", "prenom17", "prenom18", "prenom19", "prenom20"]
 // solution 1
-// const min = 1
-// const max = 20
+// const min = 0
+// const max = names.length
 // const random = Math.floor(Math.random() * max) + min
 // let result = names[random]
 // log(result)
@@ -101,4 +101,12 @@ const names = ["prenom1", "prenom2", "prenom3", "prenom4", "prenom5", "prenom6",
 
 
 // 10 - Random and max
-// const array = [""]
+let array = []
+
+for(let i = 0; i <20; i++) {
+    const min = 1
+    const max = 101
+    const random = Math.floor(Math.random() * max) + min
+    array.push(random)
+}
+log(array)
