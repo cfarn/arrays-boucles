@@ -74,13 +74,31 @@ const numbers = [4, 10, 8, 12, 6]
 // }
 
 // 08 - While
-let total = 0
-const limit = 10
-let i = 0
+// let total = 0
+// const limit = 10
+// let i = 0
 
-while(i < limit) {
-    // log(i)
-    i++
-    total += i
-}
-log(total)
+// while(i < limit) {
+//     // log(i)
+//     i++
+//     total += i
+// }
+// log(total)
+
+// 09 - Sans boucle
+const names = ["prenom1", "prenom2", "prenom3", "prenom4", "prenom5", "prenom6", "prenom7", "prenom8", "prenom9", "prenom10", "prenom11", "prenom12", "prenom13", "prenom14", "prenom15", "prenom16", "prenom17", "prenom18", "prenom19", "prenom20"]
+// solution 1
+// const min = 1
+// const max = 20
+// const random = Math.floor(Math.random() * max) + min
+// let result = names[random]
+// log(result)
+
+// solution 2
+// const random = Math.floor(Math.random() * names.length)
+// let result = names[random]
+// log(result)
+
+
+// 10 - Random and max
+// const array = [""]
