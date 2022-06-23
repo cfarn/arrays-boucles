@@ -104,9 +104,17 @@ const numbers = [4, 10, 8, 12, 6]
 let array = []
 
 for(let i = 0; i <20; i++) {
-    const min = 1
+    const min = 0
     const max = 101
     const random = Math.floor(Math.random() * max) + min
     array.push(random)
 }
 log(array)
+
+let maximum = 0
+for(let i = 0; i < array.length; i++) {
+    if(array[i] > maximum) {
+        maximum = array[i]
+    }
+}
+log("maximum", maximum)
